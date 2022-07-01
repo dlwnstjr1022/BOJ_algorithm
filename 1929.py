@@ -9,10 +9,10 @@ for i in range(M, N+1):
     if i == 1:
         continue
     
-    for j in range(2, int(i**0.5)+1): # for else statment!!!
+    for j in range(2, int(i**0.5)+1):  # for-else statement!! 
         if i%j == 0:
             break
-    else: # else statement is executed when the for-loop is not interrupted (ie.break)
+    else:   # else is executed when for-loop is not interrupted
         print(i) 
 
 
